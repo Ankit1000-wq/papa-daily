@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-14",
+  "title": "From Papa",
+  "minutes": "about 5–10",
+  "kidHtml": "<p>Hey Sairah 💛</p>\n<p>It's Papa. Wednesday evening — let's spend a few minutes together and grow a little, you and me.</p>\n<p>First, just you:</p>\n<ol>\n<li>What was the best part of your day today (big or tiny — both count)?</li>\n<li>If you could plan one perfect Saturday with the family, what would we do from morning to evening?</li>\n</ol>\n<p>Now a little math trick that helps you solve real puzzles. When a letter stands for a missing number, that's an <strong>equation</strong>. Whatever you do to one side, you do to the other, so both sides stay equal — like a balanced weighing scale.</p>\n<p>Example: if <em>x</em> + 7 = 20, take 7 away from both sides → <em>x</em> = 13. Check: 13 + 7 really is 20. Nice.</p>\n<ol start=\"3\">\n<li>Solve: 3<em>x</em> − 5 = 16. What is <em>x</em>? (Show the steps you used.)</li>\n<li>A notebook costs ₹40. You buy <em>n</em> notebooks and spend ₹200 in all. Write an equation for this, then find <em>n</em>.</li>\n<li>Someone says: \"In 2<em>x</em> = 18, you can just subtract 2 from both sides to get <em>x</em> = 16.\" Do you agree or disagree? Why? What should they do instead?</li>\n<li>You and Sriihaan share some toffees equally. Together you have 24. How many does each get? Write it as an equation first, then answer.</li>\n</ol>\n<p>You thought carefully — I'm proud of you. Love you. — Papa</p>",
+  "fields": [
+    {
+      "id": "enjoy1",
+      "label": "Best part of your day",
+      "type": "textarea"
+    },
+    {
+      "id": "enjoy2",
+      "label": "Your perfect Saturday plan",
+      "type": "textarea"
+    },
+    {
+      "id": "q1",
+      "label": "Solve 3x − 5 = 16 (with steps)",
+      "type": "textarea"
+    },
+    {
+      "id": "q2",
+      "label": "Notebook equation and n",
+      "type": "textarea"
+    },
+    {
+      "id": "q3",
+      "label": "Disagree with 2x = 18 method?",
+      "type": "textarea"
+    },
+    {
+      "id": "q4",
+      "label": "Toffees equation and answer",
+      "type": "textarea"
+    }
+  ]
+}

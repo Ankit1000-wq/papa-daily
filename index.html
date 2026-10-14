@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#ff6b8a" />
+  <title>From Papa</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <p class="eyebrow">For you, from Papa 💛</p>
+      <h1 id="title">Today with Papa</h1>
+      <p class="meta" id="meta" hidden></p>
+    </header>
+
+    <section id="empty" class="card empty hidden" aria-live="polite">
+      <h2>Nothing here yet ✨</h2>
+      <p>Check back this evening — Papa will leave something fun for you.</p>
+    </section>
+
+    <section id="main" class="hidden">
+      <article class="card passage" id="passage" aria-label="Today’s note from Papa"></article>
+
+      <form class="card form-block" id="form" novalidate>
+        <div id="fields"></div>
+        <div class="actions">
+          <button type="submit" id="submit">Send to Papa 💌</button>
+          <p class="status" id="status" role="status"></p>
+        </div>
+      </form>
+    </section>
+
+    <section id="done" class="card success hidden" aria-live="polite">
+      <div class="check" aria-hidden="true">★</div>
+      <h2>Got it — proud of you!</h2>
+      <p>Papa has your answers. See you tomorrow.</p>
+    </section>
+
+    <section id="show" class="card success hidden" aria-live="polite">
+      <div class="check" aria-hidden="true">💌</div>
+      <h2>Show your answers to Papa!</h2>
+      <p id="show-msg">Lovely work! Show this screen to Papa, or copy your answers and send them to him.</p>
+      <pre class="answers-copy" id="answers-text"></pre>
+      <div class="show-actions">
+        <button type="button" class="soft-btn" id="copy-btn">Copy my answers 📋</button>
+        <button type="button" class="soft-btn hidden" id="share-btn">Send to Papa 📤</button>
+        <button type="button" class="link-btn" id="edit-btn">← Go back and edit</button>
+      </div>
+    </section>
+
+    <footer class="note">Take your time · Just be you</footer>
+  </div>
+  <script src="app.js" defer></script>
+</body>
+</html>
