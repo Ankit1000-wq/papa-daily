@@ -1,37 +1,37 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "title": "From Papa",
   "minutes": "about 5–10",
-  "kidHtml": "<p>Hey Sairah 💛</p>\n<p>It's Papa. Wednesday evening — let's spend a few minutes together and grow a little, you and me.</p>\n<p>First, just you:</p>\n<ol>\n<li>What was the best part of your day today (big or tiny — both count)?</li>\n<li>If you could plan one perfect Saturday with the family, what would we do from morning to evening?</li>\n</ol>\n<p>Now a little math trick that helps you solve real puzzles. When a letter stands for a missing number, that's an <strong>equation</strong>. Whatever you do to one side, you do to the other, so both sides stay equal — like a balanced weighing scale.</p>\n<p>Example: if <em>x</em> + 7 = 20, take 7 away from both sides → <em>x</em> = 13. Check: 13 + 7 really is 20. Nice.</p>\n<ol start=\"3\">\n<li>Solve: 3<em>x</em> − 5 = 16. What is <em>x</em>? (Show the steps you used.)</li>\n<li>A notebook costs ₹40. You buy <em>n</em> notebooks and spend ₹200 in all. Write an equation for this, then find <em>n</em>.</li>\n<li>Someone says: \"In 2<em>x</em> = 18, you can just subtract 2 from both sides to get <em>x</em> = 16.\" Do you agree or disagree? Why? What should they do instead?</li>\n<li>You and Sriihaan share some toffees equally. Together you have 24. How many does each get? Write it as an equation first, then answer.</li>\n</ol>\n<p>You thought carefully — I'm proud of you. Love you. — Papa</p>",
+  "kidHtml": "<p>Hey Sairah 💛</p>\n<p>It's Papa. Thursday evening — let's spend a few minutes together and grow a little, you and me.</p>\n<p>First, just you:</p>\n<ol>\n<li>What's one song, sound, or smell that always makes you smile?</li>\n<li>If you could teach Sriihaan one thing you're already good at, what would it be — and why that one?</li>\n</ol>\n<p>Now a short read. Read it once slowly, then answer like you're talking to me.</p>\n<p><em>On the way home from school, Meher noticed Mrs. D'Souza watering the plants outside her ground-floor flat. The pots looked dry and tired in the sun. Without being asked, Meher put down her bag and helped move the heavier ones into the shade. Mrs. D'Souza smiled and said, \"You didn't have to, but you did.\" That evening Meher felt lighter than she had all week — even though her school bag was just as heavy as before.</em></p>\n<ol start=\"3\">\n<li>Why do you think Meher helped without waiting to be asked? What does that show about her?</li>\n<li>When the story says Meher felt \"lighter,\" what does that mean here? Why might she have felt that way?</li>\n<li>Someone says: \"Helping only counts if people thank you out loud.\" Do you agree or disagree? Why?</li>\n<li>Name one small thing you could do this week for someone at home — without waiting to be asked.</li>\n</ol>\n<p>You read with your heart as well as your eyes. Love you. — Papa</p>",
   "fields": [
     {
       "id": "enjoy1",
-      "label": "Best part of your day",
+      "label": "Song, sound, or smell that makes you smile",
       "type": "textarea"
     },
     {
       "id": "enjoy2",
-      "label": "Your perfect Saturday plan",
+      "label": "One thing you'd teach Sriihaan",
       "type": "textarea"
     },
     {
       "id": "q1",
-      "label": "Solve 3x − 5 = 16 (with steps)",
+      "label": "Why Meher helped (what it shows)",
       "type": "textarea"
     },
     {
       "id": "q2",
-      "label": "Notebook equation and n",
+      "label": "What \"lighter\" means here",
       "type": "textarea"
     },
     {
       "id": "q3",
-      "label": "Disagree with 2x = 18 method?",
+      "label": "Agree or disagree: helping only counts with thanks",
       "type": "textarea"
     },
     {
       "id": "q4",
-      "label": "Toffees equation and answer",
+      "label": "One small thing you'll do unasked this week",
       "type": "textarea"
     }
   ]
