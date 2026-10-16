@@ -1,37 +1,42 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "title": "From Papa",
   "minutes": "about 5–10",
-  "kidHtml": "<p>Hey Sairah 💛</p>\n<p>It's Papa. Thursday evening — let's spend a few minutes together and grow a little, you and me.</p>\n<p>First, just you:</p>\n<ol>\n<li>What's one song, sound, or smell that always makes you smile?</li>\n<li>If you could teach Sriihaan one thing you're already good at, what would it be — and why that one?</li>\n</ol>\n<p>Now a short read. Read it once slowly, then answer like you're talking to me.</p>\n<p><em>On the way home from school, Meher noticed Mrs. D'Souza watering the plants outside her ground-floor flat. The pots looked dry and tired in the sun. Without being asked, Meher put down her bag and helped move the heavier ones into the shade. Mrs. D'Souza smiled and said, \"You didn't have to, but you did.\" That evening Meher felt lighter than she had all week — even though her school bag was just as heavy as before.</em></p>\n<ol start=\"3\">\n<li>Why do you think Meher helped without waiting to be asked? What does that show about her?</li>\n<li>When the story says Meher felt \"lighter,\" what does that mean here? Why might she have felt that way?</li>\n<li>Someone says: \"Helping only counts if people thank you out loud.\" Do you agree or disagree? Why?</li>\n<li>Name one small thing you could do this week for someone at home — without waiting to be asked.</li>\n</ol>\n<p>You read with your heart as well as your eyes. Love you. — Papa</p>",
+  "kidHtml": "<p>Hey Sairah 💛</p>\n<p>It's Papa. Friday evening — the week's nearly done! Let's spend a few minutes together and grow a little, you and me.</p>\n<p>First, just you:</p>\n<ol>\n<li>What was the best moment of your week so far — even a tiny one?</li>\n<li>If you got to plan our Sunday morning, what would we do?</li>\n</ol>\n<p>Now a little detective work. Five friends ran a race at school: Aarav, Bina, Chirag, Diya and Esha. Here's what we know:</p>\n<ul>\n<li>Aarav finished ahead of Chirag.</li>\n<li>Chirag finished ahead of Diya.</li>\n<li>Esha came in just before Diya, and Bina came in just after Diya.</li>\n</ul>\n<ol start=\"3\">\n<li>Work out the finishing order, first to last. How did you figure it out?</li>\n<li>Who came third?</li>\n</ol>\n<p>A quick one about thinking straight. Imagine I say: <em>\"Every mango in this box is ripe. This mango came from the box, so it's ripe.\"</em> Then I say: <em>\"This mango is ripe, so it must have come from the box.\"</em></p>\n<ol start=\"5\">\n<li>Is one of those smarter than the other? Which one would you trust, and why?</li>\n</ol>\n<p>And one to think about with your heart. Your teacher adds up a test and, by mistake, gives you 2 extra marks. Those 2 marks put you just ahead of your good friend for the top spot. Nobody would ever find out.</p>\n<ol start=\"6\">\n<li>What would you do — and how do you think you'd feel afterwards?</li>\n<li>Would your answer change if the mistake had helped someone you don't get along with? Be honest with me.</li>\n</ol>\n<p>There's no wrong answer on that last part — I just love hearing how you think. Have a lovely Friday evening. — Papa</p>",
   "fields": [
     {
       "id": "enjoy1",
-      "label": "Song, sound, or smell that makes you smile",
+      "label": "Best moment of your week so far",
       "type": "textarea"
     },
     {
       "id": "enjoy2",
-      "label": "One thing you'd teach Sriihaan",
+      "label": "Our Sunday morning plan",
       "type": "textarea"
     },
     {
       "id": "q1",
-      "label": "Why Meher helped (what it shows)",
+      "label": "Race order, first to last (and how you worked it out)",
       "type": "textarea"
     },
     {
       "id": "q2",
-      "label": "What \"lighter\" means here",
-      "type": "textarea"
+      "label": "Who came third",
+      "type": "text"
     },
     {
       "id": "q3",
-      "label": "Agree or disagree: helping only counts with thanks",
+      "label": "Which mango reasoning you'd trust, and why",
       "type": "textarea"
     },
     {
       "id": "q4",
-      "label": "One small thing you'll do unasked this week",
+      "label": "What you'd do about the extra marks",
+      "type": "textarea"
+    },
+    {
+      "id": "q5",
+      "label": "Would it change for someone you don't get along with?",
       "type": "textarea"
     }
   ]
