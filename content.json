@@ -1,42 +1,42 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "title": "From Papa",
   "minutes": "about 5–10",
-  "kidHtml": "<p>Hey Sairah 🌻</p>\n<p>It's Papa. Sunday evening, the new week is just around the corner. Let's spend a few minutes together and grow a little, you and me.</p>\n<p>First, just you:</p>\n<ol>\n<li>What's one thing you're quietly looking forward to this coming week?</li>\n<li>If you could live in any city in the world for one month, which would you pick, and what's the first thing you'd do there?</li>\n</ol>\n<p>Now a little bit about our own city. Did you know a huge number of people in Mumbai weren't born here? They (or their parents, or grandparents) came from other places looking for work, study, or a better life. That movement of people from one place to another is called <em>migration</em>.</p>\n<ol start=\"3\">\n<li>Think of two reasons that might <em>push</em> a family to leave their village, and two things that might <em>pull</em> them towards a big city like Mumbai.</li>\n</ol>\n<p>Here's a small number puzzle. Imagine a town has 20,000 people. In one year, 1,500 people move in and 500 people move out (let's ignore births and deaths).</p>\n<ol start=\"4\">\n<li>How many people live in the town at the end of the year?</li>\n<li>By what percentage did the town grow?</li>\n</ol>\n<p>A friend of yours says: <em>\"Cities grow only because of people moving in.\"</em></p>\n<ol start=\"6\">\n<li>Is that fully true? What else could make a city's population grow?</li>\n</ol>\n<p>And one for your heart. A new girl joins your class. Her family has just moved from a small town, her Hindi and English sound a bit different from everyone else's, and a few kids giggle when she speaks.</p>\n<ol start=\"7\">\n<li>How do you think she feels on her first week? What's one small thing you could do to make her day easier?</li>\n</ol>\n<p>Can't wait to hear what you think, especially about that city you'd pick. Have a cosy Sunday evening. — Papa</p>",
+  "kidHtml": "<p>Hey Sairah 🌟</p>\n<p>It's Papa. First Monday of the week is done, well done! Let's spend a few minutes together and grow a little, you and me.</p>\n<p>First, just you:</p>\n<ol>\n<li>What was the best little moment of your Monday?</li>\n<li>If you could invent one gadget to make school mornings easier, what would it do?</li>\n</ol>\n<p>Now some science from everyday life. Ever noticed how a sharp knife cuts a tomato easily, but a blunt one just squashes it? Same hand, same push. The difference is <em>pressure</em>: how much force is squeezed onto how much area.</p>\n<p style=\"text-align:center\"><strong>Pressure = Force ÷ Area</strong></p>\n<ol start=\"3\">\n<li>A camel walks easily on soft sand, but a person in heels sinks in. Using the idea of pressure, why do you think that happens?</li>\n</ol>\n<p>A little number puzzle. Imagine a girl who weighs 600 newtons (that's the force she pushes down with). Her two feet together touch the floor over an area of 0.03 square metres.</p>\n<ol start=\"4\">\n<li>What pressure does she put on the floor while standing on both feet? (Answer in pascals, where 1 pascal = 1 newton per square metre.)</li>\n<li>Now she stands on one foot. What happens to the pressure, and what's the new number?</li>\n</ol>\n<p>Your cousin says: <em>\"A heavier thing always presses harder on the ground than a lighter thing.\"</em></p>\n<ol start=\"6\">\n<li>Is he right? Can you think of an example where something lighter puts more pressure on the ground than something heavier?</li>\n</ol>\n<p>And one for your heart. There's another kind of pressure, the kind people put on us. Say a few friends are all copying tomorrow's homework from one girl's notebook in the bus, and they say, \"Come on, everyone's doing it, don't be boring.\"</p>\n<ol start=\"7\">\n<li>What could you say or do that keeps you honest but still kind to your friends? And what makes that hard?</li>\n</ol>\n<p>Can't wait to see your gadget idea, I might want one too. — Papa</p>",
   "fields": [
     {
       "id": "enjoy1",
-      "label": "Something you're looking forward to this week",
+      "label": "The best little moment of your Monday",
       "type": "textarea"
     },
     {
       "id": "enjoy2",
-      "label": "Your one-month dream city, and the first thing you'd do",
+      "label": "Your school-morning gadget, and what it does",
       "type": "textarea"
     },
     {
       "id": "q1",
-      "label": "What pushes a family away, and what pulls them to the city",
+      "label": "Why the camel doesn't sink but heels do",
       "type": "textarea"
     },
     {
       "id": "q2",
-      "label": "People in the town at the end of the year",
+      "label": "Pressure on both feet (in pascals)",
       "type": "text"
     },
     {
       "id": "q3",
-      "label": "How much the town grew (in %)",
+      "label": "What happens on one foot, and the new number",
       "type": "text"
     },
     {
       "id": "q4",
-      "label": "Is your friend right? What else makes a city grow?",
+      "label": "Is your cousin right? Your example",
       "type": "textarea"
     },
     {
       "id": "q5",
-      "label": "How the new girl might feel, and what you could do",
+      "label": "What you'd say or do in the bus, and what makes it hard",
       "type": "textarea"
     }
   ]
