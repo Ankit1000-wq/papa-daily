@@ -213,3 +213,10 @@ textarea{width:100%;min-height:72px;padding:10px 12px;border:1.5px solid var(--i
 
 .jg-body{fill:#fffdf4;fill-opacity:.55}
 .jar-gas{font:900 11px var(--round);fill:var(--ink)}
+
+/* ---------- next-machine link, and the Fig label must not take the drawing's width ---------- */
+.corner.fig{width:auto}
+.trail{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:26px 0 0}
+.trail-link{display:inline-flex;align-items:center;min-height:48px;padding:8px 16px;border:1.5px solid var(--ink);border-radius:14px;background:var(--card);color:var(--ink);font-weight:800;text-decoration:none;box-shadow:3px 3px 0 var(--shadow)}
+.trail-link.next{background:var(--hi)}
+.trail-link:focus-visible{outline:2.5px solid var(--accent2);outline-offset:3px}

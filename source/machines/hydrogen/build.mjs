@@ -551,6 +551,11 @@ const html = `<!doctype html>
     ].map((q, i) => `<label class="q"><span>${q}</span><textarea id="guess${i + 1}" rows="3" placeholder="Write what you think…"></textarea></label>`).join("")}
     <p class="saved">Your answers stay on this device only.</p>
   </section>
+
+  <nav class="trail" aria-label="Hydrogen machines">
+    <span></span>
+    <a class="trail-link next" href="../properties/">Next: The Properties Lab →</a>
+  </nav>
 </main>
 <script>
 ${KIT_SRC.replace(/<\/(script)/gi, "<\\/$1")}

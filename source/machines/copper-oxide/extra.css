@@ -1,0 +1,25 @@
+
+/* ---------- The Copper Oxide Changer ---------- */
+.m-lcd{--l:#cfe6c8;--m:#cfe6c8;--d:#b2cdb0}
+.m-seg{--l:#59606e;--m:#3a404c;--d:#262a33}
+.hot-glow{fill:#ffb36b;filter:none}
+.bead{fill:#fff;stroke:var(--ink);stroke-width:.5}
+.lcd-t{font-weight:800}
+.mol circle{stroke:var(--ink);stroke-width:1.3}
+.a-h{fill:#fff}.a-o{fill:#f28b82}.a-cu{fill:#d4784a}
+.mol-t{font:800 8px var(--round);text-anchor:middle;fill:var(--ink)}
+.k-cu{background:#e7a07a}.k-oo{background:#f28b82}.k-hh{background:#fff}.k-w{background:#bfe6f5}
+.seesaw{margin-top:30px}
+.saw{display:block;width:min(220px,60%);margin:0 auto 4px}
+.saw-plank{fill:#ddb67b;stroke:var(--ink);stroke-width:1.2}
+.saw-fulcrum{fill:#c4945a;stroke:var(--ink);stroke-width:1.2;stroke-linejoin:round}
+.saw-o{fill:#f28b82;stroke:var(--ink);stroke-width:1.2}
+.saw-t{font:800 9px var(--round);fill:var(--ink)}
+.ss-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin-top:10px}
+.ss-card{border:1.5px solid var(--ink);border-radius:14px;background:#fff;padding:10px 14px;box-shadow:3px 3px 0 var(--shadow)}
+.ss-card h3{margin:0;font-size:1.02rem}
+.ss-eq{margin:2px 0 6px;font-weight:800;color:var(--ink2)}
+.ss-row{margin:8px 0;line-height:2.5}
+
+.seg .o{stroke:none}
+.o-line{fill:none;stroke:var(--ink);stroke-width:1.2;stroke-linejoin:round}

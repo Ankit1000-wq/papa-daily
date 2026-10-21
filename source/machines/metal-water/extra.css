@@ -1,0 +1,22 @@
+
+/* ---------- The Metal–Water Race ---------- */
+.m-gauze{--l:#c5cbd6;--m:#a3abba;--d:#7f8899}
+.m-wool{--l:#f4ecda;--m:#e6d9bd;--d:#cbbb98}
+.m-lump{--l:#d9dce4;--m:#b4b9c5;--d:#8d93a0}
+.m-litmus{--l:#f3a0a0;--m:#e06464;--d:#b44646}
+.wet-wool{fill:#8ec5e6;fill-opacity:.45}
+.glow-b{fill:#fff6c8;stroke:#ffb347;stroke-width:1.4}
+.hot-glow{fill:#ffb36b;fill-opacity:.55}
+.milk{fill:#fff;fill-opacity:.8}
+.label-t.sm{font-size:6.4px}
+.ln.ring{stroke:#6d7789;stroke-width:2.2}
+.steamdot{fill:#fff;fill-opacity:.8;stroke:#9ab0be;stroke-width:.5}
+.k-oh{background:#f6b3a8}
+.seg.many3{grid-template-columns:repeat(3,1fr)}
+.seg.water3{grid-template-columns:repeat(3,1fr);margin-top:8px}
+.seg.many3 .segb{min-height:50px}
+.seg.water3 .segb{min-height:46px;font-size:15px}
+.mol circle{stroke:var(--ink);stroke-width:1.3}
+.a-h{fill:#fff}.a-o{fill:#f28b82}.a-m{fill:#c9ced6}
+.mol-t{font:800 8px var(--round);text-anchor:middle;fill:var(--ink)}
+.oh-tag circle{fill:#f6b3a8}

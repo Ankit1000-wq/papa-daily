@@ -1,0 +1,73 @@
+
+/* ---------- series additions (shared by the Hydrogen-chapter machines) ---------- */
+.series .eq{min-height:2.2em}
+.corner.fig{width:auto}
+.idcard{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;margin:0 0 8px}
+.idk{display:inline-block;padding:2px 10px;border:1.4px dashed var(--ink2);border-radius:12px;background:transparent;color:var(--muted);font-size:13.5px;font-weight:700;transition:background .5s,color .5s,border-color .5s}
+.idk.on{border-style:solid;border-color:var(--ink);background:#fff;color:var(--ink)}
+.series .seg.many{grid-template-columns:repeat(4,1fr)}
+.series .seg.many .segb{min-height:48px;font-size:16px}
+.apply-intro{margin:0 0 6px;color:var(--ink2)}
+.apply-list{margin:0;padding-left:1.4em}
+.apply-list .q{display:list-item;margin:14px 0}
+.apply-list .q::marker{font-weight:800}
+.trail{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:26px 0 0}
+.trail-link{display:inline-flex;align-items:center;min-height:48px;padding:8px 16px;border:1.5px solid var(--ink);border-radius:14px;background:var(--card);color:var(--ink);font-weight:800;text-decoration:none;box-shadow:3px 3px 0 var(--shadow)}
+.trail-link.next{background:var(--hi)}
+.trail-link:focus-visible,.slot:focus-visible{outline:2.5px solid var(--accent2);outline-offset:3px}
+
+/* tap-to-choose slots (her answer, never marked) */
+.slot{min-height:44px;min-width:9.5em;padding:6px 12px;border:1.5px dashed var(--ink);border-radius:12px;background:#fff;color:var(--muted);font:700 15px/1.2 var(--round);cursor:pointer}
+.slot.picked{border-style:solid;background:#fff3cf;color:var(--ink)}
+
+/* extra materials */
+.m-cyl{--l:#f08a7a;--m:#d9533f;--d:#a93a2b}
+.m-porc{--l:#ffffff;--m:#ece9e2;--d:#cdc8bd}
+.m-candle{--l:#fff7e3;--m:#f4e4bd;--d:#dcc596}
+.m-tile{--l:#ffffff;--m:#e9eef2;--d:#c9d2da}
+.m-kero{--l:#f4e2a6;--m:#e0c475;--d:#b99a4b}
+.m-blue{--l:#8cc3ef;--m:#4f97d6;--d:#336fa8}
+.m-red{--l:#f3a0a0;--m:#e06464;--d:#b44646}
+.m-soap{--l:#f3eefc;--m:#ddd2f2;--d:#bcaee0}
+.m-black{--l:#59606e;--m:#3a404c;--d:#262a33}
+.m-sand{--l:#f2deaa;--m:#ddc07c;--d:#bf9f58}
+.hose-ink{fill:none;stroke:var(--ink);stroke-linecap:round;stroke-linejoin:round}
+.hose-body{fill:none;stroke:#c9634f;stroke-linecap:round;stroke-linejoin:round}
+.hose-shine{fill:none;stroke:#f0a596;stroke-linecap:round;stroke-linejoin:round;opacity:.9}
+.bflame-o{fill:#8ec5ff;fill-opacity:.85;stroke:#3a7bd5;stroke-width:.9}
+.bflame-i{fill:#e8f4ff}
+.h2flame-o{fill:#bfe2ff;fill-opacity:.75;stroke:#5b95dd;stroke-width:.8}
+.h2flame-i{fill:#f4fbff;fill-opacity:.9}
+.smoke{fill:none;stroke:#9aa0ab;stroke-width:1.6;stroke-linecap:round;opacity:.7}
+.waft{fill:none;stroke:var(--ink2);stroke-width:1.4;stroke-linecap:round;opacity:.75}
+.drop{fill:#7fc3e6;stroke:var(--ink);stroke-width:.6}
+.fog{fill:#ffffff;fill-opacity:.0}
+.flow{fill:#fff;stroke:var(--ink);stroke-width:.5}
+.lcd{fill:#cfe6c8;stroke:var(--ink);stroke-width:1}
+.lcd-t{font:800 11px ui-monospace,Menlo,Consolas,monospace;fill:#1f2a44}
+.tag{font:800 7px var(--round);fill:var(--ink)}
+
+/* phone: the magnifier and numbers sit right under the figure, and the steps stay in reach */
+@media (max-width:699px){
+  .series .lab{display:flex;flex-direction:column;align-items:stretch;width:100%;min-width:0}
+  .series .lab>*,.series .stage>*,.series .side>*{min-width:0;max-width:100%}
+  .series .stage,.series .side{display:contents}
+  .series .steps{order:0;position:sticky;top:0;z-index:5;background:var(--paper);margin:0;padding:6px 0 0;box-shadow:0 6px 8px -8px rgba(31,42,68,.35)}
+  .series .steps ol{padding:2px 2px 6px}
+  .series .hint{order:1}
+  .series .idcard{order:2}
+  .series .eq{order:2}
+  .series .card{order:3}
+  .series .lens-panel{order:4}
+  .series .gauges{order:5}
+  .series .note{order:6;margin-top:0}
+  .series .big{order:7;margin-top:0}
+  .series .metals{order:8}
+  .series .lens-panel{display:grid;grid-template-columns:132px 1fr;align-items:center;gap:4px 12px;padding:10px 12px}
+  .series .lens-panel h2{grid-column:1/-1;margin:0}
+  .series .lens-panel .ionsvg{grid-row:2/4;max-width:132px}
+  .series .lens-panel .legend{justify-content:flex-start;margin:0}
+  .series .modes{gap:0 14px;margin-top:0}
+  .series .modes .auto{min-height:44px}
+  .series .step{min-height:44px}
+}
